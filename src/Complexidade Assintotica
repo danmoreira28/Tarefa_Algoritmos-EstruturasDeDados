@@ -1,0 +1,48 @@
+Pilha
+
+pop =O método pop utiliza apenas uma variável auxiliar local (noPoped)
+e não aloca memória adicional. Assim, a complexidade de tempo e espaço é O(1).
+
+push = O método push utiliza apenas uma variável auxiliar local
+(refAuxiliar) e não aloca memória adicional além da já existente
+para o novo nó, que é criado fora do método. Assim, a complexidade
+de tempo e espaço é O(1).
+
+#####################################
+
+Fila
+
+enqueue = Essas operações são independentes do tamanho da fila, pois
+não envolvem iteração.
+Complexidade de Tempo: O(1)
+Complexidade de Espaço: O(1)
+
+dequeue =Como a operação depende do número de elementos devido à
+necessidade de iteração para encontrar o penúltimo nó:
+Complexidade de Tempo: O(n)
+Complexidade de Espaço: O(1)
+
+rear = Complexidade de Tempo: O(1)
+Complexidade de Espaço: O(1)
+
+front = Complexidade de Tempo: O(n)
+Complexidade de Espaço: O(1)
+
+#########################################
+
+lista
+
+push = Complexidade de Tempo: O(n)
+       Complexidade de Espaço: O(1)
+
+pop = Complexidade de Tempo: O(n)
+      Complexidade de Espaço: O(1)
+
+insert = Complexidade de Tempo: O(n)
+         Complexidade de Espaço: O(1)
+
+remove = Complexidade de Tempo: O(n)
+Complexidade de Espaço: O(1)
+
+elementAt = Complexidade de Tempo: O(1)
+            Complexidade de Espaço: O(1)
